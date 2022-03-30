@@ -1,0 +1,252 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@300&family=Nothing+You+Could+Do&family=Playfair+Display+SC&family=Trirong:wght@500&family=Ubuntu:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@300&family=Lora&family=Nothing+You+Could+Do&family=Playfair+Display+SC&family=Trirong:wght@500&family=Ubuntu:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@300&family=Lora&family=Nothing+You+Could+Do&family=Playfair+Display&family=Playfair+Display+SC&family=Trirong:wght@500&family=Ubuntu:wght@500&display=swap");
+.slide-text, #Slide p {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 41px;
+  font-weight: 400;
+  width: 347px;
+}
+
+.product-category, #Product .left a, #Product .right a {
+  color: #1b1b1b;
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: .1em;
+}
+
+.product-names, #Product .p-text a {
+  color: #1b1b1b;
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: .1em;
+}
+
+.section-head, #Flower h1, #Blog h1 {
+  margin-top: 50px;
+  font-size: 38px;
+  font-family: "Playfair Display",serif;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+header {
+  padding: 2rem 0;
+}
+
+header img {
+  width: 100%;
+}
+
+header ul {
+  margin: 0;
+  list-style: none;
+}
+
+header ul a {
+  text-decoration: none;
+}
+
+#Slide {
+  padding: 3rem 0;
+  background-size: cover;
+  background-position: center;
+  background: url(https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/h3-slider-background.jpg);
+}
+
+#Slide span {
+  color: red;
+}
+
+#Slide .image {
+  width: 20%;
+}
+
+#Slide .container img {
+  width: 100%;
+}
+
+#Slide h6 {
+  width: 429px;
+  font-size: 17px;
+  color: #6d6a6a;
+  font-weight: 400;
+  font-family: 'Lora', serif;
+  margin-bottom: 20px;
+}
+
+#Product {
+  padding: 3rem 0;
+}
+
+#Product .left a {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#Product .left a:hover {
+  color: red;
+}
+
+#Product .top {
+  margin-bottom: 30px;
+}
+
+#Product .images {
+  overflow: hidden;
+}
+
+#Product .images img {
+  width: 100%;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+#Product .images img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  cursor: pointer;
+}
+
+#Product .p-text {
+  text-align: center;
+}
+
+#Product .p-text a {
+  margin-top: 10px;
+  display: block;
+  color: #1b1b1b;
+}
+
+#Product .p-text a:hover {
+  cursor: pointer;
+  color: red;
+}
+
+#Valentine {
+  background-color: #F7F7F7;
+}
+
+#Valentine img {
+  width: 100%;
+}
+
+#Valentine h2 {
+  font-size: 38px;
+  font-family: 'Playfair Display SC', serif;
+  font-weight: 400;
+}
+
+#Valentine h2 span {
+  color: #f34f3f;
+}
+
+#Valentine p {
+  font-size: 17px;
+  margin-top: 27px;
+  font-family: 'Lora',serif;
+  color: #6d6a6a;
+}
+
+#Valentine h6 i {
+  color: red;
+  margin-right: 20px;
+}
+
+#Flower {
+  text-align: center;
+}
+
+#Flower h6 {
+  margin: 0 auto;
+  width: 50%;
+}
+
+#Flower .boxes {
+  margin: 50px 0;
+}
+
+#Join {
+  background-image: url(https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/h3-background-img.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 12rem 0;
+  text-align: center;
+}
+
+#Join p {
+  color: #ffffff;
+  font-size: 30px;
+  line-height: 1.4rem;
+  font-family: "Playfair Display",serif;
+  font-weight: 400;
+}
+
+#Join input {
+  border: none;
+  padding: 1rem 8rem 1rem 1rem;
+}
+
+#Join button {
+  border: none;
+  padding: 1rem 3rem 1rem 3rem;
+  background-color: #f34f3f;
+  color: #ffffff;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#Join button:hover {
+  background-color: #f34434;
+}
+
+#Blog {
+  padding: 3rem 0;
+  background-color: #F7F7F7;
+  text-align: center;
+}
+
+#Blog h1 {
+  margin-top: 0;
+}
+
+#Blog h6 {
+  margin: 0 auto 40px auto;
+  width: 50%;
+  color: #6d6a6a;
+}
+
+#Blog .images {
+  overflow: hidden;
+}
+
+#Blog .images img {
+  width: 100%;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+#Blog .images img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  cursor: pointer;
+}
+
+#Blog .text {
+  padding: 0 2rem;
+}
+
+#Blog .text span {
+  display: block;
+}
+
+#Person {
+  padding: 3rem;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
